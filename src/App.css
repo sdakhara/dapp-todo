@@ -1,13 +1,79 @@
+:root{
+  --one: #8CC0DE;
+  --two: #FAF0D7;
+  --three: #FFD9C0;
+  --four: #F4BFBF;
+}
 body{
   display: flex;
   justify-content: center;
+  background-color: var(--four);
+  color: var(--one);
+  
 }
 
+#appname{
+  text-align: center;
+  font-family: 'Libre Bodoni', serif;
+}
+ #task{
+   background-color: var(--two);
+   border-color: var(--four);
+   color: var(--one);
+ }
+ #inputButton{
+  border: none;
+  color: var(--one);
+  background-color: var(--three);
+  border-radius: 50%;
+ }
 .listItem{
   display: flex;
+  justify-content: center;
   list-style-type: none;
+  margin: 10px;
+}
+
+#inputBox{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+input{
+  margin-right: 5px;
+}
+
+#mainContainer{
+  background-color: var(--two);
+  border-radius: 10px;
+  margin: 50px;
+  padding: 20px;
 }
 
 .listButton{
   margin-left: 10px;
+
+  border: none;
+  color: var(--one);
+  background-color: var(--three);
+  border-radius: 50%;
+}
+
+#connectButton{
+
+  border: none;
+  color: var(--one);
+  background-color: var(--three);
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#accountControl{
+  display: flex;
+  justify-content: center;
+}
+p{
+  height: fit-content;
+  margin: 0px;
 }
